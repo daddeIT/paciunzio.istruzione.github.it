@@ -29,6 +29,11 @@ const questions = [
         question: "Stai preparando la tesina per l’esame:",
         options: ['Stampo solo la versione finale, quando sono certo che non ci siano più errori, refusi e l’impaginazione sia definitiva. Ormai potrei preparare la tesi di laurea senza problemi', 'Stampo mille versioni perché tutte le volte trovo degli errori o vorrei cambiare tutto (siamo sicuri che ho scelto l’argomento giusto?! )', 'Cerco di stampare il meno possibile, poi se devo rifare qualche pagina…errare è umano!'],
         backgroundImage: 'images/sfondo6.jpg'
+    },
+    {
+        question: "Per festeggiare il tuo compleanno:",
+        options: ['Utilizzi le posate in argento della tua bis bis nonna e litri di detersivo per lavarle', 'Compri bicchieri e posate in carta riciclata', 'Compri fuochi pirotecnici che rilasciano gas nocivi'],
+        backgroundImage: 'images/sfondo7.jpg' // Puoi aggiungere un'immagine di sfondo appropriata
     }
 ];
 
@@ -78,7 +83,7 @@ function showResult() {
         resultDescription = "Batti il 5 bro! Sei un tipo eco-friendly: amico dell’ambiente, sai mettere in pratica tutta una serie di azioni il cui obiettivo è quello di diminuire il tuo impatto ambientale. Azioni “amichevoli” nei confronti del Pianeta riguardano diversi campi e aree d’azione: dall’agricolo all’industriale, dalla pesca ai consumi energetici. Essere eco-friendly vuol dire principalmente adottare comportamenti quotidiani che mettano al centro l’uso di materie prime naturali, il riciclo e il risparmio energetico. Ti vogliamo a scuola con noi!!";
         resultImage = "images/profileA.jpg";
     } else if (maxResponse === 'B') {
-        resultTitle = "Profilo: INCERTO";
+        resultTitle = "Profilo: NOT ECO-FRIENDLY";
         resultDescription = "Boooooooooo!!! L’impronta tu la lasci ma non ci cresce più niente sulla terra che calpesti! Dai, cerca di fare la tua parte anche tu con noi: puoi riciclare correttamente, stare attento alle luci che accendi in casa o a scuola, non sprecare energia inutilmente insomma e non essere un peso per il Pianeta! Vieni da noi al Paciolo e ti spieghiamo noi il da farsi!";
         resultImage = "images/profileB.jpg";
     } else if (maxResponse === 'C') {
