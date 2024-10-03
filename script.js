@@ -33,7 +33,7 @@ const questions = [
     {
         question: "Per festeggiare il tuo compleanno:",
         options: ['Utilizzi le posate in argento della tua bis bis nonna e litri di detersivo per lavarle', 'Compri bicchieri e posate in carta riciclata', 'Compri fuochi pirotecnici che rilasciano gas nocivi'],
-        backgroundImage: 'images/sfondo7.jpg' // Puoi aggiungere un'immagine di sfondo appropriata
+        backgroundImage: 'images/sfondo7.jpg'
     }
 ];
 
